@@ -1,0 +1,15 @@
+{
+  "name": "playwright-showcase",
+  "version": "1.0.0",
+  "description": "UI + API test automation framework built with Playwright, showcasing Page Object Model, data-driven testing, and API testing.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
